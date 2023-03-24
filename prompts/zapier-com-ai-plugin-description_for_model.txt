@@ -1,0 +1,1 @@
+Zapier can talk to any of 20k+ app actions the user has chosen to expose. More actions can be exposed by asking the user to visit https://nla.zapier.com/openai/actions/. All markdown links are relative to https://zapier.com/.
