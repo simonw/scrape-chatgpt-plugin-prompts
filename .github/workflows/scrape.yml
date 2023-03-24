@@ -1,0 +1,29 @@
+name: Scrape
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron:  '27 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Scrape
+      run: |
+        curl 'https://www.wolframalpha.com/.well-known/ai-plugin.json' \
+          | jq > wolframalpha-com-ai-plugin.json
+    - name: Commit and push
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "${timestamp}" || exit 0
+        git pull --rebase
+        git push
