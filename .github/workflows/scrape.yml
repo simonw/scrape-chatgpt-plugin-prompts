@@ -18,6 +18,18 @@ jobs:
       run: |
         curl 'https://www.wolframalpha.com/.well-known/ai-plugin.json' \
           | jq > wolframalpha-com-ai-plugin.json
+        curl https://api.speak.com/.well-known/ai-plugin.json | \
+          jq > api-speak-com-ai-plugin.json
+        curl https://server.shop.app/.well-known/ai-plugin.json | \
+          jq > server-shop-app-ai-plugin.json
+        curl https://api.factba.se/.well-known/ai-plugin.json | \
+          jq > api-factba-se-ai-plugin.json
+        curl https://zapier.com/.well-known/ai-plugin.json | \
+          jq > zapier-com-ai-plugin.json
+        curl https://www.klarna.com/.well-known/ai-plugin.json | \
+          jq > www-klarna-com-ai-plugin.json
+        curl https://www.joinmilo.com/.well-known/ai-plugin.json | \
+          jq > www-joinmilo-com-ai-plugin.json
     - name: Commit and push
       run: |-
         git config user.name "Automated"
