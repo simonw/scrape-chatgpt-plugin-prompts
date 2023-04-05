@@ -1,1 +1,1 @@
-Zapier can talk to any of 20k+ actions the user has chosen to expose. Actions are single tasks (like add a lead, find a doc) while Zaps are workflows of actions. All markdown links are relative to https://zapier.com/.
+Zapier can talk to any of 20k+ actions the user has exposed. Actions are single tasks (EG: add a lead, find a doc), Zaps are workflows of actions. Start new chat to refresh actions. Markdown links are relative to https://zapier.com/.
