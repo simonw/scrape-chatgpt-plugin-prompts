@@ -13,7 +13,7 @@
     "type": "service_http",
     "authorization_type": "bearer",
     "verification_tokens": {
-      "openai": "cdfcc1dadb3540b8aa7c5c5f1512849b"
+      "openai": "5d6aceab8edc454f960e54e7868db4f0"
     }
   },
   "logo_url": "https://cdn.shopify.com/shop-assets/static_uploads/shop-logo-white-bg-purple.png",
