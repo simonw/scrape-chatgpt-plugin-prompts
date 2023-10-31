@@ -12,12 +12,12 @@
     "authorization_url": "https://nla.zapier.com/oauth/token/",
     "authorization_content_type": "application/x-www-form-urlencoded",
     "verification_tokens": {
-      "openai": "0422a043f09d411a88c93fe681a2d37b"
+      "openai": "test"
     }
   },
   "api": {
     "type": "openapi",
-    "url": "https://nla.zapier.com/api/v1/dynamic/openapi.json",
+    "url": "https://nla.zapier.com/gpt/api/v1/dynamic/openapi.json?tools=meta",
     "has_user_authentication": true
   },
   "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png",
