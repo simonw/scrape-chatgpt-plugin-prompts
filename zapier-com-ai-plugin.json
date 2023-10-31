@@ -12,7 +12,7 @@
     "authorization_url": "https://nla.zapier.com/oauth/token/",
     "authorization_content_type": "application/x-www-form-urlencoded",
     "verification_tokens": {
-      "openai": "test"
+      "openai": "703dcca4c2e24c5ea5e2c717eba11029"
     }
   },
   "api": {
