@@ -7,9 +7,9 @@
   "auth": {
     "type": "oauth",
     "instructions": "",
-    "client_url": "https://nla.zapier.com/oauth/authorize/",
+    "client_url": "https://actions.zapier.com/oauth/authorize/",
     "scope": "nla:exposed_actions:execute",
-    "authorization_url": "https://nla.zapier.com/oauth/token/",
+    "authorization_url": "https://actions.zapier.com/oauth/token/",
     "authorization_content_type": "application/x-www-form-urlencoded",
     "verification_tokens": {
       "openai": "703dcca4c2e24c5ea5e2c717eba11029"
@@ -17,7 +17,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://nla.zapier.com/gpt/api/v1/dynamic/openapi.json?tools=meta",
+    "url": "https://actions.zapier.com/gpt/api/v1/dynamic/openapi.json?tools=meta",
     "has_user_authentication": true
   },
   "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png",
